@@ -23,7 +23,7 @@ int main() {
     string answers[] = {"paris", "london", "berlin", "madrid", "rome"};
     int score = 0;
 
-    cout << "---- Primitive Quiz ----\n";
+    cout << "---- Primitive Quiz ----" << endl;
 
 // W3Schools https://www.w3schools.com/cpp/cpp_for_loop.asp
 
@@ -34,15 +34,15 @@ int main() {
         getline(cin, userAnswer);
 
         if (toLower(userAnswer) == answers[i]) {
-            cout << " Correct!\n";
+            cout << " Correct!" << endl;
             score++;
         } else {
-            cout << " Incorrect. The correct answer is " << answers[i] << ".\n";
+            cout << " Incorrect. The correct answer is " << answers[i] << "." << endl;
         }
     }
 
 
-    cout << "\nQuiz Complete! Your score: " << score << "/5\n";
+    cout << endl << "Quiz Complete! Your score: " << score << "/5" << endl;
 
     return 0;
 }
