@@ -23,9 +23,9 @@ int main() {
     cin.ignore();
 
 
-    cout << "\n---- Biography ----\n"
-        << "Name: " << name << '\n'
-        << "Hometown: " << hometown << '\n'
+    cout << "---- Biography ----" << endl
+        << "Name: " << name << endl
+        << "Hometown: "<< hometown << endl
         << "Age: "<< age << endl;
 
     return 0;
