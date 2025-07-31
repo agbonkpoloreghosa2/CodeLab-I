@@ -26,7 +26,7 @@ int main() {
     cout << "\n---- Biography ----\n"
         << "Name: " << name << '\n'
         << "Hometown: " << hometown << '\n'
-        << "Age: " << age << '\n';
+        << "Age: "<< age << endl;
 
     return 0;
 
