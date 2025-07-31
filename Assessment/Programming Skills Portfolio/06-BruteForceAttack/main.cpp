@@ -7,22 +7,22 @@ int main() {
     int attemptsLeft = 5;
     int userInput;
 
-    cout << "---- Secure System Access ----\n";
+    cout << "---- Secure System Access ----" << endl;
 
     while (attemptsLeft > 0) {
-        cout << "\n Enter password (" << attemptsLeft << " attempts left): ";
+        cout << endl << " Enter password (" << attemptsLeft << " attempts left): ";
         cin >> userInput;
 
         if (userInput == correctPassword) {
-            cout << " Welcome to the Secure Area!\n";
+            cout << " Welcome to the Secure Area!" << endl;
             return 0;
         } else {
-            cout << " Incorrect password.\n";
+            cout << " Incorrect password." << endl;
             attemptsLeft--;
         }
     }
 
 
-    cout << "\n Maximum attempts reached! Authorities have been alerted!\n";
+    cout << endl << " Maximum attempts reached! Authorities have been alerted!" << endl;
     return 0;
 }
